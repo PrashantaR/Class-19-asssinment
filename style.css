@@ -1,0 +1,216 @@
+.Header{
+    background: #000;
+    max-width: 1500px;
+}
+
+.logo {
+    padding: 0px 1px;
+    margin-top: -9px;
+}
+.Menu ul{
+    
+}
+.Menu ul li{
+    display: inline-block;
+    
+}
+.Menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.Menu ul li ul li{
+    position: relative;
+    visibility: hidden;
+}
+.Menu ul li ul li:hover{
+    visibility: visible;
+    color: #fff;
+}
+
+
+/* Banner */
+.Banner{
+    background: url("./img/2222.jpg");
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1500px;
+    position: relative;
+    z-index: 1;
+}
+
+.Banner::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    opacity: .7;
+    z-index: -1;
+}
+
+
+
+.Banner-text{
+    text-align: center;
+    margin-left: ;
+    
+}
+.Banner-text h1 {
+    padding: 8px 42px;
+    display: inline-block;
+    font-size: 74px;
+    font-weight: 700;
+    color: #fff;
+}
+.Banner-text p {
+    color: #fff;
+    padding: 16px 19px;
+    font-size: 29px;
+    font-weight: 656;
+}
+
+.buttom a {
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 20px;
+    font-size: 22px;
+    background: #c69453;
+    border-radius: 28px;
+}
+
+
+/* PROFETIONAl */
+.PROFETIONAl{
+    max-width: 1500px;
+    padding: 100px 0;
+    background: #f8f8f8;
+}
+.PROFETIONAl:hover{
+    
+}
+.img{transform: scale(1);
+    transition: .5s;
+    
+}
+.img:hover{
+   transform: rotate(200deg);
+}
+.poto {
+    text-align: center;
+    background: #fff;
+    padding: 27px 15px;
+    transition: .7s;
+}
+.poto:hover{
+    background: #b8b0b0;
+}
+
+
+
+.h4, h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.poto-text a {
+    color: #fff;
+    background: #c69453;
+    padding: 12px 18px;
+    margin-top: 19px;
+    display: inline-block;
+    border-radius: 23px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+/* Video-section */
+.Video-section{
+    max-width: 1500px;
+    background: #f8f8f8;
+    padding: 120px 0;
+}
+.Deatails a {
+    color: #fff;
+    background: #000;
+    padding: 12px 18px;
+    margin-top: 19px;
+    display: inline-block;
+   
+    text-decoration: none;
+    font-size: 19px;
+}
+.Deatails span{
+    color: #caa05d;
+}
+.Deatails h1 {
+    font-weight: 700;
+    margin-bottom: 47px;
+}
+
+
+/* Form */
+.Form{
+    padding: 100PX 0;
+    max-width: 1500px;
+    background: #f8f8f8;
+
+}
+.text h1 {
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.FORM {
+    margin-top: 48px;
+
+}
+img.a {
+    height: 613px;
+    width: auto;
+}
+.pad {
+    padding: 8px 192px;
+    display: inline-block;
+}
+.padd {
+    padding: 0px 165px;
+}
+
+.buttom-2 a{
+    color: #fff;
+    background: #c69453;
+    padding: 12px 18px;
+    margin-top: 19px;
+    display: inline-block;
+   
+    text-decoration: none;
+    font-size: 19px;
+
+}
+.pad placeholder{
+
+}
+.Fotter {
+    padding: 33px 0px;
+    background: rgb(109, 109, 109);
+}
+i{
+    padding: 10px 15px;
+    color: #dddddc;
+    transform: rotate(360deg);
+}
+.i:hover{
+    
+}
+.h6, h6 {
+    font-size: 17px;
+    line-height: 55px;
+    color: #d0cdba;
+}
+a:hover{
+    background: rgba(72, 255, 0, 0.897);
+    transition: .7s;
+}
