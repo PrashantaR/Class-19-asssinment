@@ -172,11 +172,11 @@ img.a {
     width: auto;
 }
 .pad {
-    padding: 8px 192px;
+    padding: 8px 378px 5px 5px;
     display: inline-block;
 }
 .padd {
-    padding: 0px 165px;
+    padding: 5px 324px 5px 5px;
 }
 
 .buttom-2 a{
@@ -213,4 +213,7 @@ i{
 a:hover{
     background: rgba(72, 255, 0, 0.897);
     transition: .7s;
+}
+i.fa-brands.fa-facebook-f {
+    color: #fff;
 }
